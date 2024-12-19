@@ -1,0 +1,45 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"sub_title": {
+				"__TYPE__": "FieldContent",
+				"value": "angry",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "yesterday",
+				"type": "Text"
+			},
+			"tabs": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tab_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "discussion",
+									"type": "Text"
+								}
+							],
+							[
+								"tab_id",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "higher",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

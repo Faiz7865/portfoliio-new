@@ -1,0 +1,45 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"tech_heading": {
+				"__TYPE__": "FieldContent",
+				"value": "unusual",
+				"type": "Text"
+			},
+			"tech_names": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech_color",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "#c34efe",
+									"type": "Color"
+								}
+							],
+							[
+								"tech_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "animal",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"sdfs": {
+				"__TYPE__": "FieldContent",
+				"value": "properly",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

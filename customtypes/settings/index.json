@@ -1,0 +1,101 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": ""
+        }
+      },
+      "nav_menu": {
+        "type": "Group",
+        "config": {
+          "label": "Nav menu",
+          "repeat": true,
+          "fields": {
+            "home": {
+              "type": "Link",
+              "config": {
+                "label": "Home",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            },
+            "about": {
+              "type": "Link",
+              "config": {
+                "label": "About",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            },
+            "blog": {
+              "type": "Link",
+              "config": {
+                "label": "Blog",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            },
+            "projects": {
+              "type": "Link",
+              "config": {
+                "label": "Projects",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "cta": {
+        "type": "Link",
+        "config": {
+          "label": "cta",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "select": null
+        }
+      }
+    },
+    "SEO": {
+      "meta_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "meta_discription": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Meta Discription",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "meta_image": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Meta Image",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      }
+    }
+  }
+}

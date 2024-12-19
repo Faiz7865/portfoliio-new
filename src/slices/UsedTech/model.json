@@ -1,0 +1,56 @@
+{
+  "id": "used_tech",
+  "type": "SharedSlice",
+  "name": "UsedTech",
+  "description": "UsedTech",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "tech_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Tech Heading",
+            "placeholder": ""
+          }
+        },
+        "tech_names": {
+          "type": "Group",
+          "config": {
+            "label": "Tech Names",
+            "repeat": true,
+            "fields": {
+              "tech_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Tech Name",
+                  "placeholder": ""
+                }
+              },
+              "tech_color": {
+                "type": "Color",
+                "config": {
+                  "label": "Tech Color",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "sdfs": {
+          "type": "Text",
+          "config": {
+            "label": "sdfs",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

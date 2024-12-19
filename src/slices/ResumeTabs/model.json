@@ -1,0 +1,56 @@
+{
+  "id": "resme_tabs",
+  "type": "SharedSlice",
+  "name": "ResumeTabs",
+  "description": "ResmeTabs",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "Sub Title",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "tabs": {
+          "type": "Group",
+          "config": {
+            "label": "Tabs",
+            "repeat": true,
+            "fields": {
+              "tab_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Tab Name",
+                  "placeholder": ""
+                }
+              },
+              "tab_id": {
+                "type": "Text",
+                "config": {
+                  "label": "Tab Id",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

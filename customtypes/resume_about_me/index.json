@@ -1,0 +1,92 @@
+{
+  "format": "custom",
+  "id": "resume_about_me",
+  "label": "Resume About Me",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "based": {
+        "type": "Text",
+        "config": {
+          "label": "Based",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": ""
+        }
+      },
+      "nationality": {
+        "type": "Text",
+        "config": {
+          "label": "Nationality",
+          "placeholder": ""
+        }
+      },
+      "phone": {
+        "type": "Number",
+        "config": {
+          "label": "Phone",
+          "placeholder": ""
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email",
+          "placeholder": ""
+        }
+      },
+      "experience": {
+        "type": "Text",
+        "config": {
+          "label": "Experience",
+          "placeholder": ""
+        }
+      },
+      "freelance": {
+        "type": "Text",
+        "config": {
+          "label": "Freelance",
+          "placeholder": ""
+        }
+      },
+      "skype_id": {
+        "type": "Text",
+        "config": {
+          "label": "Skype Id",
+          "placeholder": ""
+        }
+      },
+      "skype_url": {
+        "type": "Link",
+        "config": {
+          "label": "Skype Url",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "select": null
+        }
+      },
+      "language": {
+        "type": "Text",
+        "config": {
+          "label": "Language",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
